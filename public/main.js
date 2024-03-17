@@ -40,4 +40,3 @@ chat.addEventListener("message", (event) => {
 chat.addEventListener("close", () => {
 	console.log("Connection closed");
 });
-

@@ -29,10 +29,13 @@ app.ws("/chat", {
 	},
 	message(ws, message) {
 		messages.push(`${message}`);
-		ws.publish(chatName, JSON.stringify({
-			message,
-			time: Date.now(),
-		}));
+		ws.publish(
+			chatName,
+			JSON.stringify({
+				message,
+				time: Date.now(),
+			})
+		);
 	},
 	close(ws) {
 		ws.unsubscribe(chatName);
@@ -40,7 +43,6 @@ app.ws("/chat", {
 	},
 });
 
-
 console.log(
-  `🦊 Elysia is running at ${app.server?.hostname}:${app.server?.port}`
+	`🦊 Elysia is running at ${app.server?.hostname}:${app.server?.port}`
 );
