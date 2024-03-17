@@ -1,12 +1,7 @@
-/*
-	write a description of this project
-	This is a simple chat application that uses Elysia's WebSocket support to create a simple chat application.	
-
-*/
 import { Elysia, t } from "elysia";
 import { staticPlugin } from "@elysiajs/static";
 
-const messages: string[] = ["Hello", "World", "Hono", "Bun"];
+const messages: string[] = ["Hello", "World", "Elysia", "Bun"];
 const chatName = "group-chat";
 const port = 3000;
 
