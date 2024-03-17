@@ -13,7 +13,7 @@ A minimal chat application built with the Elysia framework on the Bun runtime, e
 1. **Clone the repo:**
 
 ```sh
-bun clone https://github.com/yourusername/simple-chat.git
+bun clone https://github.com/daosgava/chat-bun-elysia
 cd simple-chat
 ```
 
