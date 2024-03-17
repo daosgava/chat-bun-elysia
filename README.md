@@ -1,15 +1,49 @@
-# Elysia with Bun runtime
+# Simple Chat App with Elysia & Bun
+
+A minimal chat application built with the Elysia framework on the Bun runtime, enabling real-time communication.
 
 ## Getting Started
-To get started with this template, simply paste this command into your terminal:
-```bash
-bun create elysia ./elysia-example
+
+### Prerequisites
+
+- Bun installed on your machine. Visit [Bun.sh](https://bun.sh/) for installation instructions.
+
+### Setup
+
+1. **Clone the repo:**
+
+```sh
+bun clone https://github.com/yourusername/simple-chat.git
+cd simple-chat
 ```
 
-## Development
-To start the development server run:
-```bash
-bun run dev
+2. **Install dependencies:**
+
+```sh
+bun install
 ```
 
-Open http://localhost:3000/ with your browser to see the result.
+3. **Run the server:**
+
+```sh
+bun dev
+```
+
+Access the app at `http://localhost:3000`.
+
+## Features
+
+- Real-time messaging.
+- Simple UI.
+
+## Tech
+
+- **Elysia**: For the server-side logic.
+- **Bun**: As the runtime and package manager.
+- **WebSockets**: For real-time communication.
+
+## Structure
+
+- `src/`: Server and app logic.
+- `public/`: Static files like HTML and CSS.
+- `index.ts`: Entry point.

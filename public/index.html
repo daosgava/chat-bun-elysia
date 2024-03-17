@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script src="https://cdn.tailwindcss.com"></script>
+		<script
+			src="https://kit.fontawesome.com/eb1c665375.js"
+			crossorigin="anonymous"
+		></script>
+		<script src="main.js" defer></script>
+	</head>
+
+	<body>
+		<div class="p-4 bg-sky-50">
+			<div class="flex justify-center flex-col gap-2">
+				<div class="overflow-auto rounded-md p-4 h-64 bg-white">
+					<div class="message-container"></div>
+				</div>
+				<form>
+					<div class="flex flex-row gap-2 items-center">
+						<textarea
+							id="message"
+							name="message"
+							rows="1"
+							class="rounded-md p-4 grow antialiased font-light"
+							placeholder="Write your message here..."
+						></textarea>
+						<button
+                            name="submit"
+							type="submit"
+							class="flex justify-center items-center rounded-full bg-green-300 bg-green-400 hover:bg-green-500 active:bg-green-600 focus:outline-none focus:ring focus:ring-pink-300 w-14 h-14"
+						>
+							<i
+								class="fa-solid fa-arrow-up text-white fa-xl"
+							></i>
+						</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</body>
+</html>
