@@ -14,7 +14,7 @@ A minimal chat application built with the Elysia framework on the Bun runtime, e
 
 ```sh
 bun clone https://github.com/daosgava/chat-bun-elysia
-cd simple-chat
+cd chat-bun-elysia
 ```
 
 2. **Install dependencies:**
@@ -30,11 +30,6 @@ bun dev
 ```
 
 Access the app at `http://localhost:3000`.
-
-## Features
-
-- Real-time messaging.
-- Simple UI.
 
 ## Tech
 
